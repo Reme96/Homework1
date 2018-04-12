@@ -24,6 +24,6 @@ Primo Homework
 ---NOTE---
 
 Per terminare l'esecuzione del nodo SELECTOR occorre obbligatoriamnte inserire il
-carattere 'c' poichè non terminerebbe con ctrl+C.
+carattere 'q' poichè non terminerebbe con ctrl+C.
 Il nodo PRINTER inizialmente non stampa niente perchè aspetta di ricevere almeno
 il primo messaggio da SELECTOR.
