@@ -8,6 +8,7 @@ Primo Homework
 
 
 ---ESECUZIONE---
+
 METODO 1 (launchfile)
 1. Spostarsi nella Directory launch (catkin_ws/src/homework1/launch)
 2. Eseguire il comando: roslaunch homework1 homework1_launch.launch
