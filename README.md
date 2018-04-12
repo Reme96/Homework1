@@ -8,6 +8,11 @@ Primo Homework
 
 
 ---ESECUZIONE---
+METODO 1 (launchfile)
+1. Spostarsi nella Directory launch (catkin_ws/src/homework1/launch)
+2. Eseguire il comando: roslaunch homework1 homework1_launch.launch
+
+METODO2 (singoli file)
 1. Aprire 4 terminali e spostarsi in tutti nella Directory catkin_ws
 2. Nel primo terminale digitare il comando roscore
 3. Nel secondo terminale digitare il comando rosrun homework1 selector
@@ -27,3 +32,4 @@ Per terminare l'esecuzione del nodo SELECTOR occorre obbligatoriamnte inserire i
 carattere 'q' poichè non terminerebbe con ctrl+C.
 Il nodo PRINTER inizialmente non stampa niente perchè aspetta di ricevere almeno
 il primo messaggio da SELECTOR.
+Con il launchfile i programmi verranno eseguiti su XTerm
