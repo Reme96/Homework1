@@ -14,19 +14,12 @@ Primo Homework
 5. Nel terzo terminale digitare il comando rosrun homework1 generator
 
 ---FUNZIONAMENTO---
-1. NODO SELECTOR: questo nodo serve per selezionare le modalità di visualizzazione
-                  e permette di inserire un carattere a scelta fra i seguenti
-                  a -> tutto
-                  n -> solo il nome
-                  e -> solo l'età
-                  c -> solo il corso di laurea
-                  q -> termina programma
-2. NODO GENERATOR: questo nodo genera un messaggio al secondo contenente un nome,
-                   un'età e un corso di laurea in modo casuale.
-3. NODO PRINTER: questo nodo stampa a video i messaggi ricevuti da GENERATOR secondo
-                 le modalità ricevute da SELECTOR.
+1. NODO SELECTOR: questo nodo serve per selezionare le modalità di visualizzazione (tutto, nome, età, corso, oppure terminare) e permette di inserire un carattere a scelta fra i seguenti
+2. NODO GENERATOR: questo nodo genera un messaggio al secondo contenente un nome, un'età e un corso di laurea in modo casuale.
+3. NODO PRINTER: questo nodo stampa a video i messaggi ricevuti da GENERATOR secondo le modalità ricevute da SELECTOR.
 
 ---NOTE---
+
 Per terminare l'esecuzione del nodo SELECTOR occorre obbligatoriamnte inserire il
 carattere 'c' poichè non terminerebbe con ctrl+C.
 Il nodo PRINTER inizialmente non stampa niente perchè aspetta di ricevere almeno
