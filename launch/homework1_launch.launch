@@ -1,0 +1,5 @@
+<launch>
+	<node name="selector" pkg="homework1" type="selector" output="screen" launch-prefix="xterm -e"/>
+	<node name="printer" pkg="homework1" type="printer" output="screen" launch-prefix="xterm -e"/>
+	<node name="generator" pkg="homework1" type="generator" output="screen" launch-prefix="xterm -e"/>
+</launch>
