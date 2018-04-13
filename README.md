@@ -33,4 +33,4 @@ Per terminare l'esecuzione del nodo SELECTOR occorre obbligatoriamnte inserire i
 carattere 'q' poichè non terminerebbe con ctrl+C.
 Il nodo PRINTER inizialmente non stampa niente perchè aspetta di ricevere almeno
 il primo messaggio da SELECTOR.
-Con il launchfile i programmi verranno eseguiti su XTerm
+Con il launchfile i terminali aperti potrebbero essere sovrapposti, quindi per utilizzare il programma occorre spostarli sul desktop.
